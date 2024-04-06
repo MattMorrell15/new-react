@@ -1,6 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 
+function Magic() {
+  return (
+    <button>MagicButton</button>
+  );
+}
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +24,7 @@ function App() {
           Learn React with Matt and MSU
         </a>
       </header>
+      <Magic />
     </div>
   );
 }
