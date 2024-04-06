@@ -65,6 +65,7 @@ function App() {
       <header className="App-header">
         <ZineRack />
         <Bookshelf />
+        <Magic />
       </header>
     </div>
   );
